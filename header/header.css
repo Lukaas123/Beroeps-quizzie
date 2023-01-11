@@ -1,5 +1,45 @@
+*{
+    margin: 0;
+}
+
 #header {
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
+    background-color: rgb(30, 30, 30);
+    border-bottom: 30px solid black;
+
+    position: fixed;
+    
+}
+
+#logo {
+    background-color: white;
+    margin-top: 7.5vh;
+    
+}
+
+#navtitel {
+    color: rgb(210, 210, 210);
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
+    margin-top: -4vh;
+    text-align: center;
+    font-size: 60px;
+}
+
+#navbut {
+    border: solid 5px white;
     background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    height: 2vh;
+    width: min-content;
+    float: right;
+    
+    margin-top: 5vh;
+    margin-right: 40px;
+
+    top: 0px;
+    left: 0px;
 }
