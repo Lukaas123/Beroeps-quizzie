@@ -1,0 +1,10 @@
+.q-container{
+    margin: auto;
+    margin-top: 200px;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+}
+input{
+    margin-top: 15px;
+}
