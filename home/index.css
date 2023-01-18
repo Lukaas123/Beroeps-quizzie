@@ -16,14 +16,22 @@
     float: left;
     height: 80vh;
     background-color: brown;
-    margin-left: 1vw;
+    margin-left: 2.5vw;
+    width: 200px;
 }
+
+.ad {
+    width: 200px;
+    height: 80vh;
+}
+
 #ads2 {
     margin-top: -980px;
     float: right;
     height: 80vh;
     background-color: brown;
-    margin-right: 1vw;
+    margin-right: 2.5vw;
+    width: 200px;
 
 }
 
