@@ -2,3 +2,81 @@
     margin: 0;
 }
 
+#foto{
+    width: 40vw;
+    height: 35vh;
+    background-color: purple;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 16vh;
+}
+
+#ads1{
+    margin-top: -980px;
+    float: left;
+    height: 80vh;
+    background-color: brown;
+    margin-left: 1vw;
+}
+#ads2 {
+    margin-top: -980px;
+    float: right;
+    height: 80vh;
+    background-color: brown;
+    margin-right: 1vw;
+
+}
+
+#buttons {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: grid;
+}
+
+#b1{
+    text-align: center;
+    width: 10vw;
+    margin-right:5vw ;
+    grid-row: 1;
+    background-color: orange;
+    border-radius: 25px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: black; 
+    text-decoration: none;
+}
+
+#b2 {
+    text-align: center;
+    width: 10vw;
+    margin-right:5vw ;
+    grid-row: 1;
+    background-color: orange;
+    border-radius: 25px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: black; 
+    text-decoration: none;
+}
+#b3 {
+    text-align: center;
+    width: 10vw;
+    grid-row: 1;
+    background-color: orange;
+    border-radius: 25px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: black; 
+    text-decoration: none;
+}
+
+#info {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    height: 45vh;
+    background-color: lightgray;
+}
