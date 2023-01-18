@@ -62,11 +62,25 @@
 }
 
 #Quizen {
+    display: none;
     background-color:rgb(30, 30, 30) ;
     color: rgb(210, 210, 210);
     border: 5px solid black;
-    width: 120px;
+    width: 180px;
     font-style: normal;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -16px;
 }
 
+#Quizen, a:link, a:visited {
+    color: rgb(210, 210, 210);
+}
+
+#navbut:hover #Quizen{
+    display: block;
+}
 
