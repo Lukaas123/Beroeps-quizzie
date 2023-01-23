@@ -5,10 +5,24 @@
 #foto{
     width: 40vw;
     height: 35vh;
-    background-color: purple;
+    background-color: black;
     margin-left: 30vw;
     margin-right: 30vw;
     margin-top: 16vh;
+}
+
+.qfoto{
+    width: 40vw;
+    height: 35vh;
+    opacity: 0.5;
+}
+
+.qbut {
+    width: 5vw ;
+    position: relative;
+    margin-top: -50vh;
+    margin-left: 17,5vw;
+    margin-right: 17,5vw;
 }
 
 #ads1{
