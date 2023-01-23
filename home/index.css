@@ -15,24 +15,39 @@
     margin-top: -980px;
     float: left;
     height: 80vh;
-    background-color: brown;
+    background-color: black;
     margin-left: 2.5vw;
     width: 200px;
 }
 
-.ad {
+#ad1 {
     width: 200px;
     height: 80vh;
+}
+
+#ad1:hover {
+    opacity: 0.5;
+    transition: 0.5s;
 }
 
 #ads2 {
     margin-top: -980px;
     float: right;
     height: 80vh;
-    background-color: brown;
+    background-color: black;
     margin-right: 2.5vw;
     width: 200px;
 
+}
+
+#ad2 {
+    width: 200px;
+    height: 80vh;
+    transition: 0.5s;
+}
+
+#ad2:hover {
+    opacity: 0.5;
 }
 
 #buttons {
