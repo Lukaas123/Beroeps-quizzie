@@ -181,11 +181,11 @@ if(question == 16){
         document.getElementById("antwoord 8").hidden = false;
     }
     if(in9 == false){
-        document.getElementById("antwoord 9").innerHTML = ("9. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 9").innerHTML = ("9. Antwoord van 'vraag' is: 'C'");
         document.getElementById("antwoord 9").hidden = false;
     }
     if(in10 == false){
-        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord van 'vraag' is: 'B'");
         document.getElementById("antwoord 10").hidden = false;
     }
     if(in11 == false){
