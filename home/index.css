@@ -3,10 +3,17 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url(img/Pastelroze\ Lichtgeel\ Kinderen\ Illustratief\ Eenvoudige\ Moederdag\ Presentatie.png);
+    background-size: cover;
+}
+
 #foto{
     width: 40vw;
     height: 35vh;
-    background-image: none;
+    background-image: url(../header/img/My\ project.png);
+    background-repeat: no-repeat;
+    background-position: center;
     margin-left: 30vw;
     margin-right: 30vw;
     margin-top: 16vh;
@@ -20,6 +27,7 @@
     justify-content: center;
     height: 35vh;
     width: 40vw;
+    
     
 }
 
@@ -86,7 +94,7 @@
     width: 10vw;
     margin-right:5vw ;
     grid-row: 1;
-    background-color: orange;
+    background-image: linear-gradient(to bottom, #80A982, #aaccab);
     border-radius: 25px;
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -99,7 +107,7 @@
     width: 10vw;
     margin-right:5vw ;
     grid-row: 1;
-    background-color: orange;
+    background-image: linear-gradient(to bottom, #80A982, #aaccab);
     border-radius: 25px;
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -110,7 +118,7 @@
     text-align: center;
     width: 10vw;
     grid-row: 1;
-    background-color: orange;
+    background-image: linear-gradient(to bottom, #80A982, #aaccab);
     border-radius: 25px;
     padding-top: 3vh;
     padding-bottom: 3vh;
