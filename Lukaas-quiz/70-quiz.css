@@ -1,9 +1,15 @@
+body{
+    background-image: url(img/5286938-retro-kleurrijke-gestreepte-lijnen-achtergrond-vintage-wallpaper-met-gebogen-lijnen-uit-de-coole-jaren-70-vector.jpeg);
+    background-size: cover;
+}
+
 #c-container{
     margin: auto;
     margin-top: 220px;
     width: 900px;
     padding: 10px;
     font-size: 20px;
+    background-image: url(img/qachter.png);
 }
 .q-container{
     width: 800px;
@@ -67,4 +73,10 @@ button{
 
 #ad2:hover {
     opacity: 0.5;
+}
+
+#abbaimg {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 600px;
 }

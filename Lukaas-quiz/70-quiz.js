@@ -62,7 +62,7 @@ for(i=0;i<ele.length; i++){
         document.getElementById("q" + question).hidden = true;
         question++;
         document.getElementById("q" + question).hidden = false;
-
+//a=0 b=1 c=2  TBH is open vragen
         if(question == 2){
             awnser = 1
         }
