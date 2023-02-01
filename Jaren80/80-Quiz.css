@@ -1,3 +1,15 @@
+
+#info-img{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body{
+    background-image: url(img/80s.png);
+    background-size: cover;
+}
 #c-container{
     margin: auto;
     margin-top: 220px;
@@ -11,6 +23,8 @@
     border: double 5px black;
     border-radius: 10px;
     padding: 20px;
+    background-color: rgb(192, 106, 192);
+    
 }
 input{
     margin-top: 15px;
@@ -29,6 +43,7 @@ button{
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
+    background-color: rgb(166, 92, 166);
 }
 #ads1{
     margin-top: 220px;
