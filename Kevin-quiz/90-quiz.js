@@ -201,7 +201,7 @@ if(question == 16){
         document.getElementById("antwoord 13").hidden = false;
     }
     if(in14 == false){
-        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord van 'Welk nummer van Metallica heeft een 'Juno Award for Recording Engineer of the Year' gekregen?' is: 'Thunderstruck'");
+        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord van 'Welk nummer van AC/DC heeft een 'Juno Award for Recording Engineer of the Year' gekregen?' is: 'Thunderstruck'");
         document.getElementById("antwoord 14").hidden = false;
     }
     if(in15 == false){
