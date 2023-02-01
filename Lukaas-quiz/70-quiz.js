@@ -67,31 +67,31 @@ for(i=0;i<ele.length; i++){
             awnser = 0
         }
         else if(question == 3){
-            awnser = 0
+            awnser = 2
         }
         else if(question == 4){
             awnser = 1
         }
         else if(question == 5){
-            awnser = 2
+            awnser = 1
         }
         else if(question == 6){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 7){
             awnser = 2
         }
         else if(question == 8){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 9){
             awnser = 2
         }
         else if(question == 10){
-            awnser = 1
+            awnser = 2
         }
         else if(question == 11){
-            awnser = "TBA"
+            awnser = "Queen"
         }
     }
 }
@@ -128,16 +128,16 @@ document.getElementById("q" + question).hidden = true;
 question++;
 document.getElementById("q" + question).hidden = false;
 if(question == 12){
-    awnser = "TBA"
+    awnser = "Sweet"
 }
 if(question == 13){
-    awnser = "TBA"
+    awnser = "The Beatles"
 }
 if(question == 14){
-    awnser = "TBA"
+    awnser = "ZZ Top"
 }
 if(question == 15){
-    awnser = "TBA"
+    awnser = "Led Zeppelin"
 }
 console.log("goed " + goed)
 console.log("fout " + fout)
@@ -165,11 +165,11 @@ if(question == 16){
         document.getElementById("antwoord 4").hidden = false;
     }
     if(in5 == false){
-        document.getElementById("antwoord 5").innerHTML = ("5. Antwoord is: 'C'");
+        document.getElementById("antwoord 5").innerHTML = ("5. Antwoord is: 'B'");
         document.getElementById("antwoord 5").hidden = false;
     }
     if(in6 == false){
-        document.getElementById("antwoord 6").innerHTML = ("6. Antwoord is: 'B'");
+        document.getElementById("antwoord 6").innerHTML = ("6. Antwoord is: 'A'");
         document.getElementById("antwoord 6").hidden = false;
     }
     if(in7 == false){
@@ -177,7 +177,7 @@ if(question == 16){
         document.getElementById("antwoord 7").hidden = false;
     }
     if(in8 == false){
-        document.getElementById("antwoord 8").innerHTML = ("8. Antwoord is: 'B'");
+        document.getElementById("antwoord 8").innerHTML = ("8. Antwoord is: 'A'");
         document.getElementById("antwoord 8").hidden = false;
     }
     if(in9 == false){
@@ -185,27 +185,27 @@ if(question == 16){
         document.getElementById("antwoord 9").hidden = false;
     }
     if(in10 == false){
-        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord is: 'B'");
+        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord is: 'C'");
         document.getElementById("antwoord 10").hidden = false;
     }
     if(in11 == false){
-        document.getElementById("antwoord 11").innerHTML = ("11. Antwoord is: 'TBA'");
+        document.getElementById("antwoord 11").innerHTML = ("11. Antwoord is: 'Queen'");
         document.getElementById("antwoord 11").hidden = false;
     }
     if(in12 == false){
-        document.getElementById("antwoord 12").innerHTML = ("12. Antwoord is: 'TBA'");
+        document.getElementById("antwoord 12").innerHTML = ("12. Antwoord is: 'Sweet'");
         document.getElementById("antwoord 12").hidden = false;
     }
     if(in13 == false){
-        document.getElementById("antwoord 13").innerHTML = ("13. Antwoord is: 'TBA'");
+        document.getElementById("antwoord 13").innerHTML = ("13. Antwoord is: 'The Beatles'");
         document.getElementById("antwoord 13").hidden = false;
     }
     if(in14 == false){
-        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord is: 'TBA'");
+        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord is: 'ZZ Top'");
         document.getElementById("antwoord 14").hidden = false;
     }
     if(in15 == false){
-        document.getElementById("antwoord 15").innerHTML = ("15. Antwoord is: 'TBA'");
+        document.getElementById("antwoord 15").innerHTML = ("15. Antwoord is: 'Led Zeppelin'");
         document.getElementById("antwoord 15").hidden = false;
     }
 }
