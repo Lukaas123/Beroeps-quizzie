@@ -64,10 +64,10 @@ for(i=0;i<ele.length; i++){
         document.getElementById("q" + question).hidden = false;
 //a=0 b=1 c=2  TBH is open vragen
         if(question == 2){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 3){
-            awnser = 2
+            awnser = 0
         }
         else if(question == 4){
             awnser = 1
@@ -149,63 +149,63 @@ if(question == 16){
     document.getElementById("aantal fout").innerHTML = ("aantal fout " + fout)
 
     if(in1 == false){
-        document.getElementById("antwoord 1").innerHTML = ("1. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 1").innerHTML = ("1. Antwoord is: 'C'");
         document.getElementById("antwoord 1").hidden = false;
     }
     if(in2 == false){
-        document.getElementById("antwoord 2").innerHTML = ("2. Antwoord van 'vraag' is: 'B'");
+        document.getElementById("antwoord 2").innerHTML = ("2. Antwoord is: 'A'");
         document.getElementById("antwoord 2").hidden = false;
     }
     if(in3 == false){
-        document.getElementById("antwoord 3").innerHTML = ("3. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 3").innerHTML = ("3. Antwoord is: 'C'");
         document.getElementById("antwoord 3").hidden = false;
     }
     if(in4 == false){
-        document.getElementById("antwoord 4").innerHTML = ("4. Antwoord van 'vraag' is: 'B'");
+        document.getElementById("antwoord 4").innerHTML = ("4. Antwoord is: 'B'");
         document.getElementById("antwoord 4").hidden = false;
     }
     if(in5 == false){
-        document.getElementById("antwoord 5").innerHTML = ("5. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 5").innerHTML = ("5. Antwoord is: 'C'");
         document.getElementById("antwoord 5").hidden = false;
     }
     if(in6 == false){
-        document.getElementById("antwoord 6").innerHTML = ("6. Antwoord van 'vraag' is: 'B'");
+        document.getElementById("antwoord 6").innerHTML = ("6. Antwoord is: 'B'");
         document.getElementById("antwoord 6").hidden = false;
     }
     if(in7 == false){
-        document.getElementById("antwoord 7").innerHTML = ("7. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 7").innerHTML = ("7. Antwoord is: 'C'");
         document.getElementById("antwoord 7").hidden = false;
     }
     if(in8 == false){
-        document.getElementById("antwoord 8").innerHTML = ("8. Antwoord van 'vraag' is: 'B'");
+        document.getElementById("antwoord 8").innerHTML = ("8. Antwoord is: 'B'");
         document.getElementById("antwoord 8").hidden = false;
     }
     if(in9 == false){
-        document.getElementById("antwoord 9").innerHTML = ("9. Antwoord van 'vraag' is: 'C'");
+        document.getElementById("antwoord 9").innerHTML = ("9. Antwoord is: 'C'");
         document.getElementById("antwoord 9").hidden = false;
     }
     if(in10 == false){
-        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord van 'vraag' is: 'B'");
+        document.getElementById("antwoord 10").innerHTML = ("10. Antwoord is: 'B'");
         document.getElementById("antwoord 10").hidden = false;
     }
     if(in11 == false){
-        document.getElementById("antwoord 11").innerHTML = ("11. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 11").innerHTML = ("11. Antwoord is: 'TBA'");
         document.getElementById("antwoord 11").hidden = false;
     }
     if(in12 == false){
-        document.getElementById("antwoord 12").innerHTML = ("12. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 12").innerHTML = ("12. Antwoord is: 'TBA'");
         document.getElementById("antwoord 12").hidden = false;
     }
     if(in13 == false){
-        document.getElementById("antwoord 13").innerHTML = ("13. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 13").innerHTML = ("13. Antwoord is: 'TBA'");
         document.getElementById("antwoord 13").hidden = false;
     }
     if(in14 == false){
-        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 14").innerHTML = ("14. Antwoord is: 'TBA'");
         document.getElementById("antwoord 14").hidden = false;
     }
     if(in15 == false){
-        document.getElementById("antwoord 15").innerHTML = ("15. Antwoord van 'vraag' is: 'TBA'");
+        document.getElementById("antwoord 15").innerHTML = ("15. Antwoord is: 'TBA'");
         document.getElementById("antwoord 15").hidden = false;
     }
 }
