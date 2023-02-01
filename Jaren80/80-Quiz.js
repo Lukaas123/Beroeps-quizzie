@@ -64,31 +64,31 @@ for(i=0;i<ele.length; i++){
         document.getElementById("q" + question).hidden = false;
 
         if(question == 2){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 3){
-            awnser = 2
+            awnser = 1
         }
         else if(question == 4){
             awnser = 1
         }
         else if(question == 5){
-            awnser = 2
+            awnser = 1
         }
         else if(question == 6){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 7){
             awnser = 2
         }
         else if(question == 8){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 9){
             awnser = 2
         }
         else if(question == 10){
-            awnser = 1
+            awnser = 0
         }
         else if(question == 11){
             awnser = "Nothing ever lasts forever"
