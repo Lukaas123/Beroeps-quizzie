@@ -1,3 +1,7 @@
+body{
+    background-image: url(img/90-quiz_background.jpeg);
+    background-size: cover;
+}
 #c-container{
     margin: auto;
     margin-top: 220px;
@@ -8,9 +12,11 @@
 .q-container{
     width: 800px;
     margin: auto;
-    border: double 5px black;
+    border: double 5px rgb(0, 195, 255);
     border-radius: 10px;
     padding: 20px;
+    background-color: black;
+    color: white;
 }
 input{
     margin-top: 15px;
@@ -22,13 +28,24 @@ button{
     
 }
 #info-container{
+    
     width: 800px;
-    height: 600px;
+    height: 700px;
     margin: auto;
-    border: double 5px black;
+    border: double 5px rgb(0, 195, 255);
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+#info-image{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 47px;
+    border: solid 3px black;
+    border-radius: 20px;
 }
 #ads1{
     margin-top: 220px;
